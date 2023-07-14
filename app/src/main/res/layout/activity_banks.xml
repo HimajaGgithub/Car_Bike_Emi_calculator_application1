@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757474"
+    tools:context=".banks">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="175dp"
+        android:layout_height="144dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="450dp"
+        app:srcCompat="@drawable/axis" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="165dp"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="456dp"
+        app:srcCompat="@drawable/idfc" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="134dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="270dp"
+        app:srcCompat="@drawable/union" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="192dp"
+        android:layout_height="121dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="280dp"
+        app:srcCompat="@drawable/hdfc" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="173dp"
+        android:layout_height="138dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="70dp"
+        app:srcCompat="@drawable/icici" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="187dp"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/sbi" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="401dp"
+        android:onClick="emi"
+        android:text="20" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="emi"
+        android:text="25" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="214dp"
+        android:onClick="emi"
+        android:text="16" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="417dp"
+        android:onClick="emi"
+        android:text="15" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="emi"
+        android:text="25" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="211dp"
+        android:onClick="emi"
+        android:text="18" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="646dp"
+        android:ems="10"
+        android:hint="Enter"
+        android:inputType="text"
+        android:textColor="#757474"
+        android:textColorHint="#757474" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/up2" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="642dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Choose your Bank"
+        android:textColor="#0B0505"
+        android:textSize="24sp" />
+
+</RelativeLayout>
